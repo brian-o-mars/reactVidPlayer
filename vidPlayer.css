@@ -1,0 +1,33 @@
+.container {
+    max-width: max-content;
+    margin: auto;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-content: center;
+}
+
+.one {
+    grid-column: 1/3;
+}
+
+.two {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.three {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    padding-left: 2rem;
+}
+
+
+.btn-stack {
+    margin-top: 2em;
+}
+
+.send-com {
+    padding-left: 0.5em;
+}
+
